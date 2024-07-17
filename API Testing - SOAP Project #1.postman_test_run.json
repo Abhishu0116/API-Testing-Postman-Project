@@ -1,0 +1,214 @@
+{
+	"id": "e47ba751-ce5e-4157-a0ee-3b726e98457d",
+	"name": "API Testing - SOAP Project #1",
+	"timestamp": "2024-07-17T06:52:01.651Z",
+	"collection_id": "36980783-73ae4555-1db8-4bbd-8417-9ba2ade2e660",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 7,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-07-17T06:51:58.164Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "4c8537d1-a39c-495d-9b4c-28bb8fc440cf",
+			"name": "TC1 - Positive Testcase",
+			"url": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+			"time": 1078,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1078
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true
+				}
+			]
+		},
+		{
+			"id": "fbde6a9a-9d2d-415f-b5f5-03e3636f1d52",
+			"name": "TC2 - Negative Testcase with Invalid number",
+			"url": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+			"time": 279,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				279
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "91234809-6d9a-43a0-8c49-3708c7a01916",
+			"name": "(Bug)TC3 - Negative Test case with Special Char",
+			"url": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+			"time": 273,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				273
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "78c86d45-a585-4002-8497-168fc0f35fb0",
+			"name": "TC4 - Negative Test case with Special Char Copy",
+			"url": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+			"time": 348,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				348
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "cb5d5ca4-5e04-4d87-8303-a5432a1499b4",
+			"name": "(Bug)TC5 - Negative Test case with Decimal No",
+			"url": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+			"time": 284,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				284
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "679ffcf0-3b03-4fd7-b14f-452822199352",
+			"name": "TC6 - Negative Test case with No HEADERs",
+			"url": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+			"time": 265,
+			"responseCode": {
+				"code": 415,
+				"name": "Unsupported Media Type"
+			},
+			"tests": {
+				"Status code is 415": true
+			},
+			"testPassFailCounts": {
+				"Status code is 415": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				265
+			],
+			"allTests": [
+				{
+					"Status code is 415": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2527,
+	"collection": {
+		"requests": [
+			{
+				"id": "4c8537d1-a39c-495d-9b4c-28bb8fc440cf",
+				"method": "POST"
+			},
+			{
+				"id": "fbde6a9a-9d2d-415f-b5f5-03e3636f1d52",
+				"method": "POST"
+			},
+			{
+				"id": "91234809-6d9a-43a0-8c49-3708c7a01916",
+				"method": "POST"
+			},
+			{
+				"id": "78c86d45-a585-4002-8497-168fc0f35fb0",
+				"method": "POST"
+			},
+			{
+				"id": "cb5d5ca4-5e04-4d87-8303-a5432a1499b4",
+				"method": "POST"
+			},
+			{
+				"id": "679ffcf0-3b03-4fd7-b14f-452822199352",
+				"method": "POST"
+			}
+		]
+	}
+}
